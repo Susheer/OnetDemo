@@ -1,0 +1,42 @@
+[
+  {
+    "id": "229skjkjss",
+    "category": "Grocery",
+    "itemName": "Bread",
+    "amount": 40,
+    "expenseDate": "23/04/2019",
+    "deleted": false
+  },
+  {
+    "id": "229skjkjsd",
+    "category": "Grocery",
+    "itemName": "Bread",
+    "amount": 40,
+    "expenseDate": "23/04/2019",
+    "deleted": false
+  },
+  {
+    "id": "229skjkjsk",
+    "category": "Grocery",
+    "itemName": "Bread",
+    "amount": 40,
+    "expenseDate": "23/04/2019",
+    "deleted": false
+  },
+  {
+    "id": "229skjkjsl",
+    "category": "Grocery",
+    "itemName": "Bread",
+    "amount": 40,
+    "expenseDate": "23/04/2019",
+    "deleted": false
+  },
+  {
+    "id": "229skjkjsm",
+    "category": "Grocery",
+    "itemName": "Bread",
+    "amount": 40,
+    "expenseDate": "23/04/2019",
+    "deleted": true
+  }
+]

@@ -1,0 +1,118 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+
+  empty-cells: show;
+}
+
+td {
+  position: relative;
+}
+
+tr.strikeout td:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 1px solid #111;
+  width: 100%;
+}
+
+tr.strikeout td:after {
+  content: "\00B7";
+  font-size: 1px;
+}
+
+/* Extra styling */
+td {
+  width: 100px;
+}
+th {
+  text-align: left;
+}
+
+.customeCard {
+  width: auto;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+
+  text-align: center;
+}
+.categorie {
+  width: auto;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+
+  margin: 6px auto;
+
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding-left: 20%;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+
+  background: rgb(56, 132, 231);
+  margin: 8px;
+
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .header {
+    justify-content: center;
+
+    background: rgb(56, 132, 231);
+  }
+}
+
+.header a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  font-variant-caps: titling-caps;
+}
+
+.buttonStyle {
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  height: 40px;
+  text-align: center;
+  background: white;
+  margin: 5px;
+}
+
+.dropdownStyle {
+  box-shadow: 10 0px 5px #ccc;
+  border: 1px solid #eee;
+  height: 40px;
+  margin: 5px;
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+.textBoxStyle {
+  padding: 16px;
+  margin: 5px;
+
+  box-shadow: 10 0px 5px #ccc;
+  border: 1px solid #eee;
+  height: 40px;
+  background: white;
+}
+.card {
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+}

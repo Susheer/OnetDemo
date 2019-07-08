@@ -1,3 +1,5 @@
+
+Design pattern : MVC
 # Server for backned 
 
 #How to run backend or server

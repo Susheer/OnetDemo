@@ -12,5 +12,5 @@ NOTE: No need to put npm install ..
 	 
 
 
-// bydefault db is Onet
- ifwant to change you can by editing it from config file which is inside server dir
+// by default db is Onet
+ if want to change you can by editing it from config file which is inside server dir
